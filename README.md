@@ -6,14 +6,14 @@ This repository provides a PyTorch package for quasimetric learning --- Learning
 
 
 It implements many recent quasimetric learning methods (in reverse chronological order):
-+ [1] Interval Quasimetric Embeddings (IQEs) <br/>
-  Wang & Isola. NeurIPS 2022 NeurReps Workshop Proceedings Track. https://arxiv.org/abs/2211.15120
-+ [2] Metric Residual Networks (MRNs) <br/>
-  Liu et al. arXiv 2022. https://arxiv.org/abs/2208.08133
-+ [3] Poisson Quasimetric Embeddings (PQEs) <br/>
++ [1] Interval Quasimetric Embeddings (IQEs) ([paper](https://arxiv.org/abs/2211.15120)) ([website](https://www.tongzhouwang.info/interval_quasimetric_embedding/)) <br/>
+  Wang & Isola. NeurIPS 2022 NeurReps Workshop Proceedings Track.
++ [2] Metric Residual Networks (MRNs) ([paper](https://arxiv.org/abs/2208.08133)) <br/>
+  Liu et al. arXiv 2022.
++ [3] Poisson Quasimetric Embeddings (PQEs) ([paper](https://arxiv.org/abs/2206.15478)) ([website](https://github.com/ssnl/poisson_quasimetric_embedding)) <br/>
   Wang and Isola. ICLR 2022. https://arxiv.org/abs/2206.15478
-+ [4] Deep Norm and Wide Norm <br/>
-  Pitis and Chan et al. ICLR 2020. https://arxiv.org/abs/2002.05825
++ [4] Deep Norm and Wide Norm ([paper](https://arxiv.org/abs/2002.05825)) <br/>
+  Pitis and Chan et al. ICLR 2020.
 
 This is also the official implementation for IQE [1].
 
