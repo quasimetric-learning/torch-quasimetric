@@ -755,8 +755,6 @@ IQE [1]:
   title={Improved Representation of Asymmetrical Distances with Interval Quasimetric Embeddings},
   author={Wang, Tongzhou and Isola, Phillip},
   note={Workshop on Symmetry and Geometry in Neural Representations at Conference on Neural Information Processing Systems (NeurIPS) 2022},
-  booktitle={Proceedings of Machine Learning Research (PMLR)},
-  volume={Volume on Symmetry and Geometry in Neural Representations},
   year={2022},
 }
 ```
