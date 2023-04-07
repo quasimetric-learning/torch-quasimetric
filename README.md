@@ -5,7 +5,7 @@
 This repository provides a PyTorch package for quasimetric learning --- Learning a **quasimetric** function from data.
 
 
-It implements many recent quasimetric learning methods (in reverse chronological order):
+This package implements many recent quasimetric learning methods (in reverse chronological order):
 + [1] Interval Quasimetric Embeddings (IQEs) ([paper](https://arxiv.org/abs/2211.15120)) ([website](https://www.tongzhouwang.info/interval_quasimetric_embedding/)) <br/>
   Wang & Isola. NeurIPS 2022 NeurReps Workshop Proceedings Track.
 + [2] Metric Residual Networks (MRNs) ([paper](https://arxiv.org/abs/2208.08133)) <br/>
@@ -187,6 +187,7 @@ Inteval Quasimetric Embedding (IQE) [1]<br/>
 Metric Residual Network (MRN) [2]<br/>
 <code>torchqmet.MRN(input_size: int, sym_p: float = 2, ...)</code>
 </summary>
+
     Metric Residual Network (MRN):
     https://arxiv.org/abs/2208.08133
 
@@ -351,6 +352,7 @@ Metric Residual Network (MRN) fixed to be guaranteed a quasimetric [1,2]<br/>
 Poisson Quasimetric Embedding (PQE) [3]<br/>
 <code>torchqmet.PQE(input_size, dim_per_component=16, measure="lebesgue", shape="halfline", ...)</code>
 </summary>
+
     Poisson Quasimetric Embedding (PQE):
     https://arxiv.org/abs/2206.15478
 
@@ -476,6 +478,7 @@ Poisson Quasimetric Embedding (PQE) [3]<br/>
 Poisson Quasimetric Embedding with Lebesgue measure and Half-line shape (PQE-LH) [3]<br/>
 <code>torchqmet.PQELH(input_size, dim_per_component=16, ...)</code>
 </summary>
+
     PQE-LH variant of Poisson Quasimetric Embedding (PQE), using Lebesgue measure + Half-line shape:
     https://arxiv.org/abs/2206.15478
 
@@ -494,6 +497,7 @@ Poisson Quasimetric Embedding with Lebesgue measure and Half-line shape (PQE-LH)
 Poisson Quasimetric Embedding with Gaussian-based measure and Gaussian-based shape (PQE-GG) [3]<br/>
 <code>torchqmet.PQEGG(input_size, dim_per_component=16, ...)</code>
 </summary>
+
     PQE-GG variant of Poisson Quasimetric Embedding (PQE), using Gaussian-based measure and Gaussian-based shape:
     https://arxiv.org/abs/2206.15478
 
@@ -648,6 +652,7 @@ Deep Norm [4]<br/>
 Wide Norm [4]<br/>
 <code>torchqmet.WideNorm(input_size: int, num_components: int, output_component_size: int = 32, ...)</code>
 </summary>
+
     Wide Norm:
     https://arxiv.org/abs/2002.05825
 
@@ -741,8 +746,8 @@ Wide Norm [4]<br/>
 
 This package:
 ```bibtex
-@misc{wang2022torchquasimetric,
-  author = {Tongzhou Wang},
+@misc{tongzhouw2022torchquasimetric,
+  author = {Wang, Tongzhou},
   title = {torchqmet: {P}y{T}orch Package for Quasimetric Learning},
   year = {2022},
   howpublished = {\url{https://github.com/quasimetric-learning/torch-quasimetric}},
@@ -751,7 +756,7 @@ This package:
 
 IQE [1]:
 ```bibtex
-@inproceedings{wang2022iqe,
+@inproceedings{tongzhouw2022iqe,
   title={Improved Representation of Asymmetrical Distances with Interval Quasimetric Embeddings},
   author={Wang, Tongzhou and Isola, Phillip},
   note={Workshop on Symmetry and Geometry in Neural Representations at Conference on Neural Information Processing Systems (NeurIPS) 2022},
