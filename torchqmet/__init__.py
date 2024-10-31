@@ -35,7 +35,7 @@ class QuasimetricBase(nn.Module, metaclass=abc.ABCMeta):
         self.reduction = make_reduction(reduction, num_components, discount)
 
     @abc.abstractmethod
-    def compute_components(x: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
+    def compute_components(self, x: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
         r'''
         Inputs:
             x (torch.Tensor): Shape [..., input_size]
